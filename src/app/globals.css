@@ -1,0 +1,65 @@
+/* ตัวอย่าง */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Basic styling for the nav element */
+nav {
+  background-color: #f0f0f0;
+  /* Light gray background */
+  padding: 1rem;
+  /* Add some padding */
+  border-bottom: 1px solid #ccc;
+  /* Add a bottom border */
+}
+
+/* Styling for the unordered list */
+nav ul {
+  list-style: none;
+  /* Remove default bullet points */
+  margin: 0;
+  /* Reset default margin */
+  padding: 0;
+  /* Reset default padding */
+  display: flex;
+  /* Arrange list items horizontally */
+}
+
+/* Styling for the list items */
+nav ul li {
+  margin-right: 1rem;
+  /* Add space between list items */
+}
+
+/* Styling for the links within list items */
+nav ul li a {
+  text-decoration: none;
+  /* Remove underlines from links */
+  color: #333;
+  /* Dark gray link color */
+  font-weight: bold;
+  /* Make links bold */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+  color: #007bff;
+  /* Change link color on hover */
+  text-decoration: underline;
+  /* Add underline on hover */
+}
